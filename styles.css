@@ -1,0 +1,66 @@
+html {
+  background-color: lightskyblue;
+}
+.page-container {
+  margin: 0 auto;
+  max-width: 70em;  
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  font-family: sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border: .1em solid black;
+  margin-bottom: 0;
+  width: 20em;
+}
+
+.card-img {  
+  display: block;  
+  height: 12.5em;
+  width: 12.5em;
+  border-radius: 50%;
+  border: .1em solid black;
+  margin: 2em 1em 1em 4em;  
+}
+
+.card-content {
+  padding: 1em 1em 0 1em;
+}
+
+.card-content .emp-name {
+  text-align: center;
+}
+
+.emp-bio {
+  overflow-y: auto;
+  height: 5em;
+}
+
+.tags {
+  display: flex;
+  bottom: 0 !important;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* color: white; I tired to match the design provided but its not readable on one of the tags*/
+}
+
+.tags p {
+  margin-right: .5em;
+  padding: .1em 1em;
+}
+
+.crown {
+  float: right;
+  padding: .3em;
+  margin: 0 !important;
+}
